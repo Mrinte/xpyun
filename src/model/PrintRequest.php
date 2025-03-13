@@ -40,6 +40,14 @@ class PrintRequest extends RestRequest
      * 声音播放模式，0 为取消订单模式，1 为静音模式，2 为来单播放模式，默认为 2 来单播放模式
      */
     var $voice = 2;
+
+    /**
+     * 初始化打印机信息
+     */
+    public function __construct(string $user, string $userKey, string $debug = "0")
+    {
+        parent::__construct($user, $userKey, $debug);
+    }
 }
 
 ?>

@@ -7,4 +7,8 @@
 ```bash
 composer require mrinte/xpyun
 
+```
+## 环境要求
+```bash
 php 7.0~7.4
+```
